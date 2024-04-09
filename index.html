@@ -33,7 +33,7 @@
         <main>
             <!-- Home Section -->
             <section :class="`${sections[0].href}`" class="d-flex jst-cntr algn-cntr" :id="`${sections[0].href}`">
-                <div class="row jst-cntr">
+                <div class="row jst-cntr algn-cntr">
                     <div class="my-info d-flex jst-cntr algn-cntr flx-col ms-col-50">
                         <div class="info-wrapper ms-col-60">
                             <h1>Hi! My Name is 
@@ -97,10 +97,10 @@
 
             <!-- My Repo Section -->
             <section :class="`${sections[2].href}`" :id="`${sections[2].href}`">
-                <h2>{{ sections[2].title }}</h2>
                 <div class="row repo-wrapper">
+                    <h2>{{ sections[2].title }}</h2>
                     <a class="repo-card anchor d-flex jst-cntr pointer" :href="repo.link" target="_blank" v-for="repo, index in myRepo">
-                        <h2>{{repo.projects}}</h2>
+                        <h3>{{repo.projects}}</h3>
                         <img :src="`./img/${repo.image}.jpg`" alt="repo-image">
                     </a>
                 </div>
@@ -109,8 +109,8 @@
 
             <!-- Contact me Section -->
             <section :class="`${sections[3].href}`" :id="`${sections[3].href}`">
-                <h2>{{ sections[3].title }}</h2>
                 <div class="row">
+                    <h2>{{ sections[3].title }}</h2>
                 </div>
             </section>
             <!-- /Contact me Section -->
