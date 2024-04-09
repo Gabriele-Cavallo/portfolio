@@ -140,7 +140,6 @@ createApp({
                 },
             ],
             activeSection: 0,
-            
         };
     },
     methods: {

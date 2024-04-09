@@ -20,8 +20,9 @@
     <div id="app">
         <a class="home-shortcut" :href="`#${sections[0].href}`"><img class="logo" src="./img/logo.png" alt="logo"></a>
         <header class="menu-header d-flex jst-end algn-cntr">
-            <nav class="nav-bar">
+            <nav class="nav-bar d-flex algn-cntr">
                 <a 
+                class="tablet-hidden"
                 @click="selectSection(index)" 
                 v-for="section, index in sections" 
                 :href="`#${section.href}`" 
@@ -29,13 +30,27 @@
                 {{section.title}}
                 </a>
             </nav>  
+            <div class="desktop-hidden hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+                <div class="hamburger-nav-bar">
+                    <nav class="nav-bar d-flex flx-col drop-down-menu">
+                        <a 
+                        @click="selectSection(index)" 
+                        v-for="section, index in sections" 
+                        :href="`#${section.href}`" 
+                        :class="{'active' : activeSection === index}">
+                        {{section.title}}
+                        </a>
+                    </nav>
+                </div>
+            </div>
         </header>
         <main>
             <!-- Home Section -->
             <section :class="`${sections[0].href}`" class="d-flex jst-cntr algn-cntr" :id="`${sections[0].href}`">
                 <div class="row jst-cntr algn-cntr">
                     <div class="my-info d-flex jst-cntr algn-cntr flx-col ms-col-50">
-                        <div class="info-wrapper ms-col-60">
+                        <div class="info-wrapper ms-col-50">
                             <h1>Hi! My Name is 
                                 <span>Gabriele</span>
                             </h1>
