@@ -566,6 +566,10 @@ footer a{
     .repo-card{
         width: calc(((100% / 12) * 4) - 40px);
     }
+    .repo-wrapper h2,
+    section.contact-me h2{
+        top: 0;
+    }
 }
 @media screen and (max-width: 992px) {
     .repo-card{
@@ -591,6 +595,9 @@ footer a{
     }
     .menu-header{
         padding: 0 25px;
+    }
+    .skills h2{
+        top: 0;
     }
 }
 @media screen and (max-width: 576px) {
