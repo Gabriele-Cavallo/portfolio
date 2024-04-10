@@ -76,6 +76,15 @@ createApp({
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'prima','seconda','terza','quarta','quinta'],
                 },
+                {
+                    instrument : 'NODE-JS',
+                    status: false,
+                    logo: './img/node-logo.png',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'What a mess!!!',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
             ],
             myRepo: [
                 {
@@ -140,12 +149,16 @@ createApp({
                 },
             ],
             activeSection: 0,
+            visible: false,
         };
     },
     methods: {
         selectSection(index){
             this.activeSection = index;
-        }
+        },
+        scrollChangeSection(index){
+            this.activeSection = index;
+        },
 
     },
     mounted() {

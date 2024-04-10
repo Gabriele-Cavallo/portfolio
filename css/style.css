@@ -370,6 +370,9 @@ div .signature{
 /* #endregion HOME */
 
 /* #region SKILLS */
+.skills .row{
+    align-content: flex-start;
+}
 .skills{
     padding: 0 20px;
     text-align: center;
@@ -389,6 +392,7 @@ div .signature{
 }
 .skills-card-wrapper h4{
     background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
     width: calc(100% + 40px);
     padding: 10px 0;
     position: relative;
@@ -407,6 +411,7 @@ div .signature{
     transition: 0.4s ease;
     overflow: hidden;
     position: relative;
+    top: 150px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .skills-card-wrapper i{
@@ -579,6 +584,7 @@ footer a{
 @media screen and (max-width: 768px) {
     .skills-card-wrapper{
         width: calc(((100% / 12) * 6) - 40px);
+        top: 0;
     }
     .my-img img{
         min-width: 500px;

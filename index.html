@@ -30,7 +30,7 @@
                 {{section.title}}
                 </a>
             </nav>  
-            <div class="desktop-hidden hamburger-menu">
+            <div class="desktop-hidden hamburger-menu pointer">
                 <i class="fa-solid fa-bars"></i>
                 <div class="hamburger-nav-bar">
                     <nav class="nav-bar d-flex flx-col drop-down-menu">
@@ -47,7 +47,7 @@
         </header>
         <main>
             <!-- Home Section -->
-            <section :class="`${sections[0].href}`" class="d-flex jst-cntr algn-cntr" :id="`${sections[0].href}`">
+            <section @mouseenter="scrollChangeSection(0)" :class="`${sections[0].href}`" class="d-flex jst-cntr algn-cntr" :id="`${sections[0].href}`">
                 <div class="row jst-cntr algn-cntr">
                     <div class="my-info d-flex jst-cntr algn-cntr flx-col ms-col-50">
                         <div class="info-wrapper ms-col-50">
@@ -82,7 +82,7 @@
             <!-- /Home Section -->
 
             <!-- Skills Section -->
-            <section :class="`${sections[1].href}`" :id="`${sections[1].href}`">
+            <section @mouseenter="scrollChangeSection(1)" :class="`${sections[1].href}`" :id="`${sections[1].href}`">
                 <h2>{{ sections[1].title }}</h2>
                 <div class="row algn-cntr anchor">
                     <div v-for="skill, index in skills" class="skills-card-wrapper pointer d-flex flx-col algn-cntr gap-20">
@@ -111,7 +111,7 @@
             <!-- /Skills Section -->
 
             <!-- My Repo Section -->
-            <section :class="`${sections[2].href}`" :id="`${sections[2].href}`">
+            <section @mouseenter="scrollChangeSection(2)" :class="`${sections[2].href}`" :id="`${sections[2].href}`">
                 <div class="row repo-wrapper">
                     <h2>{{ sections[2].title }}</h2>
                     <a class="repo-card anchor d-flex jst-cntr pointer" :href="repo.link" target="_blank" v-for="repo, index in myRepo">
@@ -123,7 +123,7 @@
             <!-- /My Repo  Section -->
 
             <!-- Contact me Section -->
-            <section :class="`${sections[3].href}`" :id="`${sections[3].href}`">
+            <section @mouseenter="scrollChangeSection(3)" :class="`${sections[3].href}`" :id="`${sections[3].href}`">
                 <div class="row">
                     <h2>{{ sections[3].title }}</h2>
                 </div>
@@ -131,7 +131,7 @@
             <!-- /Contact me Section -->
 
             <!-- Template single section -->
-            <!-- <section :class="`${sections[prossimo-indice-array-sections].href}`" :id="`${sections[prossimo-indice-array-sections].href}`">
+            <!-- <section @mouseenter="scrollChangeSection(prossimo-indice-array-sections)" :class="`${sections[prossimo-indice-array-sections].href}`" :id="`${sections[prossimo-indice-array-sections].href}`">
                 <h2>{{ sections[sections[prossimo-indice-array-sections].title }}</h2>
                 <div class="row">
                 </div>
