@@ -49,6 +49,7 @@
             <!-- Home Section -->
             <section @mouseenter="scrollChangeSection(0)" :class="`${sections[0].href}`" class="d-flex jst-cntr algn-cntr" :id="`${sections[0].href}`">
                 <div class="row jst-cntr algn-cntr">
+                    <!-- Sezione descrizione personale -->
                     <div class="my-info d-flex jst-cntr algn-cntr flx-col ms-col-50">
                         <div class="info-wrapper ms-col-50">
                             <h1>Hi! My Name is 
@@ -71,12 +72,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- /Sezione descrizione personale -->
+
+                    <!-- Foto personale + carosello attestati(coming-soon) -->
                     <div class="my-img d-flex algn-cntr ms-col-50">
                         <div class="anchor-my-img pointer">
                             <img src="./img/logo.png" alt="my photo">
                             <div class="signature">Eyepatch production</div>
                         </div>
                     </div>
+                    <!-- /Foto personale + carosello attestati(coming-soon) -->
                 </div>
             </section>
             <!-- /Home Section -->
@@ -85,6 +90,8 @@
             <section @mouseenter="scrollChangeSection(1)" :class="`${sections[1].href}`" :id="`${sections[1].href}`">
                 <h2>{{ sections[1].title }}</h2>
                 <div class="row algn-cntr anchor">
+                    <!-- // Per ogni skill aggiunta all'array skills viene creata una card -->
+                    <!-- Single Card Template -->
                     <div v-for="skill, index in skills" class="skills-card-wrapper pointer d-flex flx-col algn-cntr gap-20">
                         <h4>{{ skill.instrument }}</h4>
                         <img :src="`${skill.logo}`" alt="Web dev instrument">
@@ -106,14 +113,17 @@
                             </ul>
                         </div>
                     </div>
+                    <!-- /Single Card Template -->
                 </div>
             </section>
             <!-- /Skills Section -->
 
             <!-- My Repo Section -->
             <section @mouseenter="scrollChangeSection(2)" :class="`${sections[2].href}`" :id="`${sections[2].href}`">
+                <!-- // Contenitore card anteprima repo Git -->
                 <div class="row repo-wrapper">
                     <h2>{{ sections[2].title }}</h2>
+                    <!-- Per ogni link inserito nel array myRepo genera una card link alla repo/pagina web  -->
                     <a class="repo-card anchor d-flex jst-cntr pointer" :href="repo.link" target="_blank" v-for="repo, index in myRepo">
                         <h3>{{repo.projects}}</h3>
                         <img :src="`./img/${repo.image}.jpg`" alt="repo-image">
@@ -129,6 +139,7 @@
                     <form action="#">
                         <div class="input-wrapper">
                             <div class="input-template">
+                                <!-- Per ogni richiesta inserita nell'array contactMe genera una riga di input nel form -->
                                 <input  v-for="contact in contactMe" :type="contact.type" :placeholder="contact.placeholder">
                             </div>
                         </div>

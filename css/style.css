@@ -538,13 +538,13 @@ section.contact-me form{
 section.contact-me .row{
     align-content: flex-start;
     flex-direction: column;
-    gap: 250px;
+    gap: 300px;
 }
 section.contact-me h2{
     width: 100%;
     min-height: 62px;
     position: relative;
-    top: 90px;
+    top: 150px;
     text-align: center;
 }
 input[type=number] {
