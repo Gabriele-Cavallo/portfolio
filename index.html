@@ -126,6 +126,17 @@
             <section @mouseenter="scrollChangeSection(3)" :class="`${sections[3].href}`" :id="`${sections[3].href}`">
                 <div class="row">
                     <h2>{{ sections[3].title }}</h2>
+                    <form action="#">
+                        <div class="input-wrapper">
+                            <div class="input-template">
+                                <input  v-for="contact in contactMe" :type="contact.type" :placeholder="contact.placeholder">
+                            </div>
+                        </div>
+                        <div class="text-area-wrapper">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send Message" class="btn">
+                        </div>
+                    </form>
                 </div>
             </section>
             <!-- /Contact me Section -->

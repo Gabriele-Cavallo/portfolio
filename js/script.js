@@ -148,6 +148,24 @@ createApp({
                     link: 'https://github.com/Gabriele-Cavallo/vue-todolist'
                 },
             ],
+            contactMe: [
+                {
+                    type: 'text',
+                    placeholder: 'Full Name'
+                },
+                {
+                    type: 'text',
+                    placeholder: 'Email'
+                },
+                {
+                    type: 'number',
+                    placeholder: 'Phone Number'
+                },
+                {
+                    type: 'text',
+                    placeholder: 'Subject'
+                },
+            ],
             activeSection: 0,
             visible: false,
         };
