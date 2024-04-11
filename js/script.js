@@ -85,6 +85,15 @@ createApp({
                     description: 'What a mess!!!',
                     competents: [ 'prima','seconda','terza','quarta','quinta'],
                 },
+                {
+                    instrument : 'SASS',
+                    status: true,
+                    logo: './img/sass-logo.png',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
             ],
             myRepo: [
                 {
