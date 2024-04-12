@@ -117,62 +117,62 @@ createApp({
                 {
                     projects: 'Boolzapp',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-boolzapp'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Campo minato vue',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/campo-minato-vue'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Slider',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-slider'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Todo List',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-todolist'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Slider',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-slider'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Todo List',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-todolist'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Boolzapp',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-boolzapp'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Campo minato vue',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/campo-minato-vue'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Slider',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-slider'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Todo List',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-todolist'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Slider',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-slider'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Todo List',
                     image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/vue-todolist'
+                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
             ],
             contactMe: [
