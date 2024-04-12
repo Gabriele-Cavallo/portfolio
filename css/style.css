@@ -724,6 +724,22 @@ footer a{
     section.my-repo{
         padding: 0 20px;
     }
+    .drop-down-menu{
+        text-align: start;
+        width: 172px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1000;
+        background-color: black;
+        border-bottom: 100%;
+        border: 2px solid var(--dark-red);
+        border-radius: 15px;
+        padding: 0 10px 10px 10px;
+    }
+    .hamburger-menu {
+        margin-right: auto;
+    }
 }
 /* #endregion MEDIA-QUERY */
 
