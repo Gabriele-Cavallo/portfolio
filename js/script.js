@@ -204,6 +204,16 @@ createApp({
         scrollChangeSection(index){
             this.activeSection = index;
         },
+        openHamburgerMenu(){
+            if(this.visible === false){
+                this.visible = true;
+            }else{
+                this.visible = false;
+            }
+        },
+        closeHamburgerMenu(){
+            this.visible = false;
+        }
 
     },
     mounted() {

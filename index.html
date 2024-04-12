@@ -34,10 +34,10 @@
                 {{section.title}}
                 </a>
             </nav>  
-            <div class="desktop-hidden hamburger-menu pointer">
+            <div @click.stop="openHamburgerMenu()" class="desktop-hidden hamburger-menu pointer">
                 <i class="fa-solid fa-bars"></i>
                 <div class="hamburger-nav-bar">
-                    <nav class="nav-bar d-flex flx-col drop-down-menu">
+                    <nav :class="{'drop-down-menu-hide' : visible === false, 'drop-down-menu' : visible === true}" class="nav-bar d-flex flx-col">
                         <a 
                         @click="selectSection(index)" 
                         v-for="section, index in sections" 

@@ -165,22 +165,21 @@ input.btn{
 .hamburger-nav-bar{
     position: relative;
 }
+.drop-down-menu-hide{
+    display: none;
+}
 .drop-down-menu{
     text-align: end;
     width: 172px;
     position: absolute;
-    right: -5px;
-    top: -5px;
+    right: 0;
+    top: 0;
     z-index: 1000;
     background-color: black;
     border-bottom: 100%;
     border: 2px solid var(--dark-red);
     border-radius: 15px;
     padding: 0 10px 10px 10px;
-    display: none;
-}
-.hamburger-menu:hover .drop-down-menu{
-    display: block;
 }
 .hamburger-menu:hover .drop-down-menu a{
     display: flex;
@@ -534,7 +533,7 @@ div .signature{
 
 /* #region CONTACT-ME */
 section.contact-me .row{
-    padding: 0 20px;
+    padding: 20px;
 }
 section.contact-me form{
     display: flex;
