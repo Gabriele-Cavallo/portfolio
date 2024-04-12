@@ -481,12 +481,28 @@ div .signature{
 /* #endregion SKILLS */
 
 /* #region MY-REPO */
-.repo-wrapper h2{
-    width: 100%;
-    min-height: 62px;
+.swiper {
+    min-width: 100%;
+    max-height: 1000px;
     position: relative;
     top: 90px;
+    padding-bottom: 250px;
+}
+.swiper-slide{
+    width: 768px;
+    min-height: 100%;
+    display: flex;
+    align-content: center;
+    max-height: 60%;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -10px;
+}
+.repo-wrapper h2{
+    width: 100%;
+    max-height: 62px;
     text-align: center;
+    margin-bottom: 150px;
 }
 .repo-wrapper h3{
     font-size: 30px;
@@ -495,11 +511,12 @@ div .signature{
     background: transparent;
     border: 1px solid var(--dark-red);
     min-height: 450px;
-    width: calc(((100% / 12) * 2) - 40px);
-    margin: 20px;
+    width: 100%;
     border-radius: 20px;
     overflow: hidden;
     color: white;
+    box-shadow: 0 0 15px var(--dark-red),
+                0 0 35px var(--dark-red);
 }
 .repo-card img{
     min-width: 100%;
@@ -643,9 +660,6 @@ footer a{
     .skills-card-wrapper{
         width: calc(((100% / 12) * 4) - 40px);
     }
-    .repo-card{
-        width: calc(((100% / 12) * 4) - 40px);
-    }
     .repo-wrapper h2,
     section.contact-me h2{
         top: 0;
@@ -654,9 +668,6 @@ footer a{
 @media screen and (max-width: 992px) {
     section.home{
         margin-top: 50px;
-    }
-    .repo-card{
-        width: calc(((100% / 12) * 6) - 40px);
     }
     .text-area-wrapper,
     .input-wrapper{
@@ -687,6 +698,13 @@ footer a{
     .skills h2{
         top: 0;
     }
+    .swiper{
+        max-height: 1200px;
+    }
+    .swiper-slide{
+        width: 576px;
+        min-height: 800px;
+    }
 }
 @media screen and (max-width: 576px) {
     .skills-card-wrapper{
@@ -695,14 +713,17 @@ footer a{
     .skills-card-wrapper:hover{
         transform: scale(1);
     }
-    .repo-card{
-        width: 100%;
-    }
     div .signature{
         left: 50%;
         transform: translateX(-50%)rotate(0);
         font-size: 35px;
         width: 100%;
+    }
+    .swiper-slide{
+        width: 100%;
+    }
+    section.my-repo{
+        padding: 0 20px;
     }
 }
 /* #endregion MEDIA-QUERY */

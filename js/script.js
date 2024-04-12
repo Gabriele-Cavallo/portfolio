@@ -77,6 +77,15 @@ createApp({
                     competents: [ 'prima','seconda','terza','quarta','quinta'],
                 },
                 {
+                    instrument : 'VITE',
+                    status: false,
+                    logo: './img/vite-logo.svg',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
+                {
                     instrument : 'NODE-JS',
                     status: false,
                     logo: './img/node-logo.png',
@@ -89,6 +98,15 @@ createApp({
                     instrument : 'SASS',
                     status: true,
                     logo: './img/sass-logo.png',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
+                {
+                    instrument : 'SWIPER',
+                    status: false,
+                    logo: './img/swiper-logo.svg',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
@@ -189,5 +207,26 @@ createApp({
 
     },
     mounted() {
+        const swiper = new Swiper('.swiper', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }
+          });
     }
 }).mount('#app');
