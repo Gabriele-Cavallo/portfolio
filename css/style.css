@@ -181,6 +181,11 @@ input.btn{
     border-radius: 15px;
     padding: 0 10px 10px 10px;
 }
+.hamburger-menu {
+    border: 3px solid var(--dark-red);
+    padding: 6px 10px 5px;
+    border-radius: 15px;
+}
 .hamburger-menu:hover .drop-down-menu a{
     display: flex;
     flex-direction: column;
