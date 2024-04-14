@@ -20,6 +20,10 @@ createApp({
                     href: 'contact-me',
                     title: 'CONTACT ME',
                 },
+                {
+                    href: 'my-hobbies',
+                    title: 'MY HOBBIES',
+                },
             ],
             skills: [
                 {

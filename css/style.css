@@ -614,6 +614,166 @@ textarea{
 }
 /* #endregion CONTACT-ME */
 
+/* #region MY HOBBIES */
+section.my-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+section.my-hobbies h2{
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+section.my-hobbies h2.slide-in{
+    animation: fade-in-right 1s;
+}
+section.my-hobbies h2.slide-out{
+    transform: translateX(100%);
+    animation: fade-out-left 1s;
+}
+section.my-hobbies .hobby-box-opacity{
+    animation: fade-in 1s;
+}
+section.my-hobbies img{
+    animation: fade-in 120s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+section.my-hobbies .hobby-box-opacity-out{
+    opacity: 0;
+    animation: fade-out 1s;
+}
+section.my-hobbies .second-left-box,
+section.my-hobbies .first-right-box{
+    animation: fade-in-top 1s;
+}
+section.my-hobbies .second-left-box-out,
+section.my-hobbies .first-right-box-out{
+    animation: fade-out-top 1s;
+}
+section.my-hobbies .first-left-box,
+section.my-hobbies .second-right-box{
+    animation: fade-in-bottom 1s;
+}
+section.my-hobbies .first-left-box-out,
+section.my-hobbies .second-right-box-out{
+    animation: fade-out-bottom 1s;
+}
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fade-out{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes fade-in-right{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+@keyframes fade-out-left{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+@keyframes fade-in-top{
+    from{
+        transform:translateY(-100%);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes fade-out-bottom{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-100%);
+    }
+}
+@keyframes fade-in-bottom{
+    from{
+        transform:translateY(100%);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+@keyframes fade-out-top{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(100%);
+    }
+}
+section.my-hobbies .row{
+    justify-content: center;
+    align-items: center;
+}
+.hobby-box{
+    background-color: black;
+    min-height: 900px;
+    width: 15%;
+    border: 2px solid var(--dark-red);
+    border-radius: 15px;
+    z-index: 2;
+    transition: all 0.7s ease;
+}
+.hobby-box:hover,
+.hobby-box.first-right-box:hover,
+.hobby-box.second-right-box:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+.hobby-box.first-left-box{
+    position: relative;
+    left: 20px;
+    min-height: 800px;
+}
+.hobby-box.second-left-box{
+    position: relative;
+    left: 40px;
+    min-height: 700px;
+}
+.hobby-box.first-right-box{
+    position: relative;
+    right: 20px;
+    min-height: 800px;
+    z-index: 1;
+}
+.hobby-box.second-right-box{
+    position: relative;
+    right: 40px;
+    min-height: 700px;
+    z-index: 0;
+}
+/* #endregion MY HOBBIES */
+
 /* #region FOOTER */
 footer{
     min-height: 80px;
@@ -665,6 +825,9 @@ footer a{
     section.contact-me h2{
         top: 0;
     }
+    .hobby-box{
+        width: 20%;
+    }
 }
 @media screen and (max-width: 992px) {
     section.home{
@@ -673,6 +836,32 @@ footer a{
     .text-area-wrapper,
     .input-wrapper{
         width: 100%;
+    }
+    .hobby-box{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .hobby-box.first-left-box{
+        position: relative;
+        left: 0px;
+        min-height: 800px;
+    }
+    .hobby-box.second-left-box{
+        position: relative;
+        left: 0px;
+    }
+    .hobby-box.first-right-box{
+        position: relative;
+        right: 0px;
+        z-index: 1;
+    }
+    .hobby-box.second-right-box{
+        position: relative;
+        right: 0px;
+        z-index: 0;
+    }
+    section.my-hobbies .row{
+        margin-top: 200px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -741,6 +930,9 @@ footer a{
     }
     .hamburger-menu {
         margin-right: auto;
+    }
+    section.my-hobbies .row *{
+        min-height: 400px;
     }
 }
 /* #endregion MEDIA-QUERY */
