@@ -211,10 +211,6 @@ createApp({
                 this.visible = false;
             }
         },
-        closeHamburgerMenu(){
-            this.visible = false;
-        }
-
     },
     mounted() {
         const swiper = new Swiper('.swiper', {

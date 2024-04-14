@@ -165,9 +165,6 @@ input.btn{
 .hamburger-nav-bar{
     position: relative;
 }
-.drop-down-menu-hide{
-    display: none;
-}
 .drop-down-menu{
     text-align: end;
     width: 172px;
