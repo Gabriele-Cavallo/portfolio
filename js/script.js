@@ -116,6 +116,24 @@ createApp({
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'prima','seconda','terza','quarta','quinta'],
                 },
+                {
+                    instrument : 'PHP',
+                    status: false,
+                    logo: './img/php-logo.jpg',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
+                {
+                    instrument : 'MAMP',
+                    status: false,
+                    logo: './img/mamp-logo.png',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
             ],
             myRepo: [
                 {

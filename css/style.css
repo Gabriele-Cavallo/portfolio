@@ -374,6 +374,7 @@ div .signature{
 /* #region SKILLS */
 .skills .row{
     align-content: flex-start;
+    justify-content: center;
 }
 .skills{
     padding: 0 20px;
