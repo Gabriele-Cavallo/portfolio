@@ -193,11 +193,21 @@
                 <img v-if="activeSection !== 4" src="./img/inteferenze.jpg" alt="inteferenze">
                 <h2 :class="{'slide-in' : activeSection === 4,'slide-out' : activeSection !== 4}">{{ sections[4].title }}</h2>
                 <div class="row d-wrap">
-                    <div :class="{'second-left-box' : activeSection === 4, 'second-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box"></div>
-                    <div :class="{'first-left-box' : activeSection === 4, 'first-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box"></div>
-                    <div :class="{'hobby-box-center' : activeSection === 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box"></div>
-                    <div :class="{'first-right-box' : activeSection === 4, 'first-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box"></div>
-                    <div :class="{'second-right-box' : activeSection === 4, 'second-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box"></div>
+                    <div :class="{'second-left-box' : activeSection === 4, 'second-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
+                        <h2 class="hobby-title">My puppy</h2>
+                    </div>
+                    <div :class="{'first-left-box' : activeSection === 4, 'first-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
+                        <h2 class="hobby-title">Gaming</h2>
+                    </div>
+                    <div :class="{'hobby-box-center' : activeSection === 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
+                        <h2 class="hobby-title">Coding</h2>
+                    </div>
+                    <div :class="{'first-right-box' : activeSection === 4, 'first-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
+                        <h2 class="hobby-title">Manga / Anime</h2>
+                    </div>
+                    <div :class="{'second-right-box' : activeSection === 4, 'second-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
+                        <h2 class="hobby-title">Fantasy role-playing games</h2>
+                    </div>
                 </div>
             </section>
             <!-- /My Hobbies section -->

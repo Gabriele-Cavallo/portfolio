@@ -677,6 +677,27 @@ section.my-hobbies .first-left-box-out,
 section.my-hobbies .second-right-box-out{
     animation: fade-out-bottom 1s;
 }
+.hobby-box-center{
+    background-image: url('../img/hobby-img/coding.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.first-left-box{
+    background-image: url('../img/hobby-img/gaming.jpg');
+    background-size: cover;
+}
+.first-right-box{
+    background-image: url('../img/hobby-img/manga.webp');
+    background-size: cover;
+}
+.second-left-box{
+    background-image: url('../img/hobby-img/puppy.jpg');
+    background-size: cover;
+}
+.second-right-box{
+    background-image: url('../img/hobby-img/dice.jpg');
+    background-size: cover;
+}
 @keyframes fade-in{
     from{
         opacity: 0;
@@ -781,6 +802,14 @@ section.my-hobbies .row{
     right: 40px;
     min-height: 700px;
     z-index: 0;
+}
+.hobby-box h2.hobby-title{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 /* #endregion MY HOBBIES */
 
