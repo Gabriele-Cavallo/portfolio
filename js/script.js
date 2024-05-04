@@ -32,7 +32,7 @@ createApp({
                     logo: './img/html-5.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'High-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'tags block/inline','attributes','link','table','entity code', 'browser inspector'],
                 },
                 {
@@ -41,7 +41,7 @@ createApp({
                     logo: './img/css-logo.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'High-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'flexbox', 'id/class','selectors', 'advanced selectors','border/margin/padding','display','elements inheritance', 'selectors specificity', 'vh / vw', 'media query'],
                 },
                 {
@@ -50,7 +50,7 @@ createApp({
                     logo: './img/bootstrap-logo.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'High-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'layout', 'content','forms','components','helpers','utilities'],
                 },
                 {
@@ -59,7 +59,7 @@ createApp({
                     logo: './img/js-logo.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'variables', 'variables types', 'array', 'objects', 'functions/ arrow functions', 'scopes','cycle for/ while/ do while/ forEach','manipulation DOM elements','if/ else if/ else', 'comparison  operators', 'map/ filter', 'destructuring', 'spread/ rest'],
                 },
                 {
@@ -68,7 +68,7 @@ createApp({
                     logo: './img/vue-logo.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'text interpolation','manipulation DOM elements','data/ methods/ mount','vue directives','DOM events', 'v-if/ v-for', 'Axios 0API calls'],
                 },
                 {
@@ -82,7 +82,7 @@ createApp({
                 },
                 {
                     instrument : 'VITE',
-                    status: false,
+                    status: true,
                     logo: './img/vite-logo.svg',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
@@ -104,7 +104,7 @@ createApp({
                     logo: './img/sass-logo.png',
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
-                    description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    description: 'High-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'syntax','style rules','variables','At-rules','values', 'operators'],
                 },
                 // {
@@ -147,9 +147,9 @@ createApp({
                     link: 'https://github.com/Gabriele-Cavallo/campo-minato-vue'
                 },
                 {
-                    projects: 'Vue Slider',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
+                    projects: 'API Dragonball',
+                    image: 'dragonball',
+                    link: 'https://github.com/Gabriele-Cavallo/axios-dragonball'
                 },
                 {
                     projects: 'Vue Todo List',
