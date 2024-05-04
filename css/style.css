@@ -302,6 +302,9 @@ h1{
 h2{
     font-size: 53px;
 }
+p{
+    font-size: 22px;
+}
 h1 span{
     color: var(--dark-red);
     text-shadow: 0 0 25px var(--dark-red);

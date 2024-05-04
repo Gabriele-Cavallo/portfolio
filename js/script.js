@@ -33,7 +33,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'tags block/inline','attributes','link','table','entity code', 'browser inspector'],
                 },
                 {
                     instrument : 'CSS',
@@ -42,7 +42,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'flexbox', 'id/class','selectors', 'advanced selectors','border/margin/padding','display','elements inheritance', 'selectors specificity', 'vh / vw', 'media query'],
                 },
                 {
                     instrument : 'BOOTSTRAP',
@@ -51,7 +51,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'layout', 'content','forms','components','helpers','utilities'],
                 },
                 {
                     instrument : 'JS',
@@ -60,7 +60,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'variables', 'variables types', 'array', 'objects', 'functions/ arrow functions', 'scopes','cycle for/ while/ do while/ forEach','manipulation DOM elements','if/ else if/ else', 'comparison  operators', 'map/ filter', 'destructuring', 'spread/ rest'],
                 },
                 {
                     instrument : 'VUE-JS',
@@ -69,7 +69,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level basic knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'text interpolation','manipulation DOM elements','data/ methods/ mount','vue directives','DOM events', 'v-if/ v-for', 'Axios 0API calls'],
                 },
                 {
                     instrument : 'PYTHON',
@@ -78,7 +78,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'variables','variables types','if/ elif/ else','and/ or/ not','cycle while/ break/ continue/ for', 'functions', 'lists', 'list methods'],
                 },
                 {
                     instrument : 'VITE',
@@ -87,7 +87,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'components','state management (store.js)','import','lang=scss','SCSS variables/ mixins', '@use', 'props', '$emit', 'computed properties'],
                 },
                 {
                     instrument : 'NODE-JS',
@@ -105,17 +105,17 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'syntax','style rules','variables','At-rules','values', 'operators'],
                 },
-                {
-                    instrument : 'SWIPER',
-                    status: false,
-                    logo: './img/swiper-logo.svg',
-                    learned: 'rgb(3, 255, 3)',
-                    inProgress: 'red',
-                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
-                },
+                // {
+                //     instrument : 'SWIPER',
+                //     status: false,
+                //     logo: './img/swiper-logo.svg',
+                //     learned: 'rgb(3, 255, 3)',
+                //     inProgress: 'red',
+                //     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                //     competents: [ 'prima','seconda','terza','quarta','quinta'],
+                // },
                 {
                     instrument : 'PHP',
                     status: false,
@@ -123,17 +123,17 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'tag','$variables','echo','$_GET/ $_POST','form action/ method', 'array/ associative array', 'cycle for/ foreach', 'include/ require ( _DIR_ )', 'sessions'],
                 },
-                {
-                    instrument : 'MAMP',
-                    status: false,
-                    logo: './img/mamp-logo.png',
-                    learned: 'rgb(3, 255, 3)',
-                    inProgress: 'red',
-                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
-                },
+                // {
+                //     instrument : 'MAMP',
+                //     status: false,
+                //     logo: './img/mamp-logo.png',
+                //     learned: 'rgb(3, 255, 3)',
+                //     inProgress: 'red',
+                //     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                //     competents: [ 'prima','seconda','terza','quarta','quinta'],
+                // },
             ],
             myRepo: [
                 {
