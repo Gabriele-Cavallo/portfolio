@@ -137,14 +137,14 @@ createApp({
             ],
             myRepo: [
                 {
-                    projects: 'Boolzapp',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
+                    projects: 'Vanilla JS Carousel',
+                    image: 'carousel',
+                    link: 'https://github.com/Gabriele-Cavallo/carousel'
                 },
                 {
                     projects: 'Campo minato vue',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
+                    image: 'campo-minato',
+                    link: 'https://github.com/Gabriele-Cavallo/campo-minato-vue'
                 },
                 {
                     projects: 'Vue Slider',

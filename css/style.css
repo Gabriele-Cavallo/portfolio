@@ -503,6 +503,10 @@ div .signature{
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
     bottom: -10px;
 }
+.swiper-button-prev,
+.swiper-button-next{
+    color: var(--dark-red);
+}
 .repo-wrapper h2{
     width: 100%;
     max-height: 62px;
@@ -511,6 +515,8 @@ div .signature{
 }
 .repo-wrapper h3{
     font-size: 30px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px var(--dark-red);
 }
 .repo-card{
     background: transparent;
