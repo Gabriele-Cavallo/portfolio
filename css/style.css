@@ -514,9 +514,9 @@ div .signature{
     margin-bottom: 150px;
 }
 .repo-wrapper h3{
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 20px;
-    text-shadow: 1px 1px 2px var(--dark-red);
+    text-shadow: 2px 2px 2px var(--dark-red);
 }
 .repo-card{
     background: transparent;
@@ -678,24 +678,24 @@ section.my-hobbies .second-right-box-out{
     animation: fade-out-bottom 1s;
 }
 .hobby-box-center{
-    background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/coding.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/coding.jpg');
     background-size: cover;
     background-position: left;
 }
 .first-left-box{
-    background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/gaming.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/gaming.jpg');
     background-size: cover;
 }
 .first-right-box{
-    background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/manga.webp');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/manga.webp');
     background-size: cover;
 }
 .second-left-box{
-    background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/puppy.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/puppy.jpg');
     background-size: cover;
 }
 .second-right-box{
-    background-image: linear-gradient(to bottom, rgba(139, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/dice.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 50%), url('../img/hobby-img/dice.jpg');
     background-size: cover;
 }
 @keyframes fade-in{

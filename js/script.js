@@ -137,6 +137,11 @@ createApp({
             ],
             myRepo: [
                 {
+                    projects: 'My Portfolio',
+                    image: 'portfolio',
+                    link: 'https://github.com/Gabriele-Cavallo/portfolio'
+                },
+                {
                     projects: 'Vanilla JS Carousel',
                     image: 'carousel',
                     link: 'https://github.com/Gabriele-Cavallo/carousel'
@@ -150,11 +155,6 @@ createApp({
                     projects: 'API Dragonball',
                     image: 'dragonball',
                     link: 'https://github.com/Gabriele-Cavallo/axios-dragonball'
-                },
-                {
-                    projects: 'Vue Todo List',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
                 },
                 {
                     projects: 'Vue Slider',
@@ -178,21 +178,6 @@ createApp({
                 },
                 {
                     projects: 'Vue Slider',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
-                },
-                {
-                    projects: 'Vue Todo List',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
-                },
-                {
-                    projects: 'Vue Slider',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
-                },
-                {
-                    projects: 'Vue Todo List',
                     image: 'random-img',
                     link: 'https://github.com/Gabriele-Cavallo/'
                 },
