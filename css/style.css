@@ -506,6 +506,23 @@ div .signature{
 .swiper-button-prev,
 .swiper-button-next{
     color: var(--dark-red);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid var(--dark-red);
+}
+.swiper-button-prev::after{
+    position: relative;
+    right: 50%;
+    transform: translateX(100%);
+    font-weight: bold;
+}
+.swiper-button-next::after{
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+    font-weight: bold;
 }
 .repo-wrapper h2{
     width: 100%;
