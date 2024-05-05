@@ -157,9 +157,9 @@ createApp({
                     link: 'https://github.com/Gabriele-Cavallo/axios-dragonball'
                 },
                 {
-                    projects: 'Vue Slider',
-                    image: 'random-img',
-                    link: 'https://github.com/Gabriele-Cavallo/'
+                    projects: 'TO-DO List',
+                    image: 'to-do',
+                    link: 'https://github.com/Gabriele-Cavallo/to-do-list'
                 },
                 {
                     projects: 'Vue Todo List',
