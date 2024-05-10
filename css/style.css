@@ -421,6 +421,9 @@ div .signature{
     top: 150px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.skills-card-wrapper img{
+    object-fit: contain;
+}
 .skills-card-wrapper i{
     font-size: 30px;
 }

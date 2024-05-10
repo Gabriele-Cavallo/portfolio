@@ -69,7 +69,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Medium-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'text interpolation','manipulation DOM elements','data/ methods/ mount','vue directives','DOM events', 'v-if/ v-for', 'Axios 0API calls'],
+                    competents: [ 'text interpolation','manipulation DOM elements','data/ methods/ mounted','vue directives','DOM events', 'v-if/ v-for', 'Axios 0API calls'],
                 },
                 {
                     instrument : 'PYTHON',
@@ -125,15 +125,15 @@ createApp({
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'tag','$variables','echo','$_GET/ $_POST','form action/ method', 'array/ associative array', 'cycle for/ foreach', 'include/ require ( _DIR_ )', 'sessions'],
                 },
-                // {
-                //     instrument : 'MAMP',
-                //     status: false,
-                //     logo: './img/mamp-logo.png',
-                //     learned: 'rgb(3, 255, 3)',
-                //     inProgress: 'red',
-                //     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                //     competents: [ 'prima','seconda','terza','quarta','quinta'],
-                // },
+                {
+                    instrument : 'My-SQL',
+                    status: false,
+                    logo: './img/mysql-logo.png',
+                    learned: 'rgb(3, 255, 3)',
+                    inProgress: 'red',
+                    description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
+                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                },
             ],
             myRepo: [
                 {
