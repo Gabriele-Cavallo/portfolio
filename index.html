@@ -140,9 +140,9 @@
                         <h3>{{repo.projects}}</h3>
                         <img :src="`./img/${repo.image}.jpg`" alt="repo-image">
                     </a> -->
+                    <h2>{{ sections[2].title }}</h2>
                     <!-- Slider main container -->
                     <div class="swiper">
-                        <h2>{{ sections[2].title }}</h2>
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -195,18 +195,23 @@
                 <div class="row d-wrap">
                     <div :class="{'second-left-box' : activeSection === 4, 'second-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
                         <h2 class="hobby-title">My puppy</h2>
+                        <p class="text-in">This is my little rottie puppy of 40+ kg!!! But him think that's a small doggy of 8 kg 😅</p>
                     </div>
                     <div :class="{'first-left-box' : activeSection === 4, 'first-left-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
                         <h2 class="hobby-title">Gaming</h2>
+                        <p class="text-in">My first passion since i was a child! No matter wich console gaming it's gaming!!! But PS > XOBX 😏 and PC > PS 😎!!</p>
                     </div>
                     <div :class="{'hobby-box-center' : activeSection === 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
                         <h2 class="hobby-title">Coding</h2>
+                        <p class="text-in">My new passion!!! Now I enjoy coding like gaming and I'm putting all my efforts to learning it!!👨‍🎓</p>
                     </div>
                     <div :class="{'first-right-box' : activeSection === 4, 'first-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
                         <h2 class="hobby-title">Manga / Anime</h2>
+                        <p class="text-in">Like any other nerd I like manga and anime, since elementary school when Dragonball was on TV!!!</p>
                     </div>
                     <div :class="{'second-right-box' : activeSection === 4, 'second-right-box-out' : activeSection !== 4, 'hobby-box-opacity' : activeSection === 4, 'hobby-box-opacity-out' : activeSection !==4}" class="hobby-box anchor">
                         <h2 class="hobby-title">Fantasy role-playing games</h2>
+                        <p class="text-in">Last but not least, I used to be a D&D player but it takes too much time and I'm leaving it for now!</p>
                     </div>
                 </div>
             </section>

@@ -14,6 +14,7 @@ a{
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding: 100px;
     color: var(--text-color);
 }
 /* #endregion RESET */
@@ -384,10 +385,6 @@ div .signature{
     padding: 0 20px;
     text-align: center;
 }
-.skills h2{
-    position: relative;
-    top: 150px;
-}
 .skills img{
     height: 80px;
     width: 80px;
@@ -532,7 +529,6 @@ div .signature{
     width: 100%;
     max-height: 62px;
     text-align: center;
-    margin-bottom: 150px;
 }
 .repo-wrapper h3{
     font-size: 35px;
@@ -560,6 +556,7 @@ div .signature{
     z-index: -1;
 }
 .repo-wrapper{
+    align-content: flex-start;
     height: calc(100% - 70px);
 }
 /* #endregion MY-REPO */
@@ -653,10 +650,17 @@ section.my-hobbies{
     text-align: center;
     overflow: hidden;
 }
+section.my-hobbies .hobby-box .text-in{
+    display: none;
+}
+section.my-hobbies .hobby-box:hover .text-in{
+    display: block;
+    animation: fade-in 1s;
+}
 section.my-hobbies h2{
     width: 100%;
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 section.my-hobbies h2.slide-in{
     animation: fade-in-right 1s;
@@ -795,6 +799,7 @@ section.my-hobbies .row{
     border-radius: 15px;
     z-index: 2;
     transition: all 0.7s ease;
+    text-shadow: 2px 2px 2px black;
 }
 .hobby-box:hover,
 .hobby-box.first-right-box:hover,
@@ -825,12 +830,15 @@ section.my-hobbies .row{
     z-index: 0;
 }
 .hobby-box h2.hobby-title{
-    position: absolute;
     top: 10px;
-    left: 0;
     font-size: 45px;
     color: white;
-    text-shadow: 2px 2px 2px black;
+}
+.hobby-box p{
+    position: relative;
+    top: 20px;
+    padding: 15px;
+    font-size: 30px;
 }
 /* #endregion MY HOBBIES */
 
@@ -880,10 +888,6 @@ footer a{
     }
     .skills-card-wrapper{
         width: calc(((100% / 12) * 4) - 40px);
-    }
-    .repo-wrapper h2,
-    section.contact-me h2{
-        top: 0;
     }
     .hobby-box{
         width: 20%;
@@ -944,9 +948,6 @@ footer a{
     }
     .menu-header{
         padding: 0 25px;
-    }
-    .skills h2{
-        top: 0;
     }
     .swiper{
         max-height: 1200px;
