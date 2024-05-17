@@ -25,6 +25,17 @@ createApp({
                     title: 'MY HOBBIES',
                 },
             ],
+            badges: [
+                {
+                    badge: './img/node-logo.png',
+                },
+                {
+                    badge: './img/npm-logo.png',
+                },
+                {
+                    badge: './img/laravel-logo.png',
+                },
+            ],
             skills: [
                 {
                     instrument : 'HTML',
@@ -89,15 +100,15 @@ createApp({
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
                     competents: [ 'components','state management (store.js)','import','lang=scss','SCSS variables/ mixins', '@use', 'props', '$emit', 'computed properties'],
                 },
-                {
-                    instrument : 'NODE-JS',
-                    status: false,
-                    logo: './img/node-logo.png',
-                    learned: 'rgb(3, 255, 3)',
-                    inProgress: 'red',
-                    description: 'What a mess!!!',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
-                },
+                // {
+                //     instrument : 'NODE-JS',
+                //     status: false,
+                //     logo: './img/node-logo.png',
+                //     learned: 'rgb(3, 255, 3)',
+                //     inProgress: 'red',
+                //     description: 'What a mess!!!',
+                //     competents: [ 'prima','seconda','terza','quarta','quinta'],
+                // },
                 {
                     instrument : 'SASS',
                     status: true,

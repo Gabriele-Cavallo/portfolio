@@ -103,6 +103,13 @@
             <section @mouseenter="scrollChangeSection(1)" :class="`${sections[1].href}`" :id="`${sections[1].href}`">
                 <h2>{{ sections[1].title }}</h2>
                 <div class="row algn-cntr anchor">
+                    <!-- // Per ogni badge aggiunta all'array badges viene creata una badge -->
+                    <!-- Single Badge Template -->
+                    <div class="badges-wrapper d-flex jst-cntr algn-cntr gap-20">
+                        <img v-for="badge in badges" :src="`${badge.badge}`" alt="badge">
+                    </div>
+                    <!-- /Single Badge Template -->
+                    
                     <!-- // Per ogni skill aggiunta all'array skills viene creata una card -->
                     <!-- Single Card Template -->
                     <div v-for="skill, index in skills" class="skills-card-wrapper pointer d-flex flx-col algn-cntr gap-20">
