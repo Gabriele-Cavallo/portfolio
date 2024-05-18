@@ -33,6 +33,9 @@ createApp({
                     badge: './img/npm-logo.png',
                 },
                 {
+                    badge: './img/php-my-admin-logo.png',
+                },
+                {
                     badge: './img/laravel-logo.png',
                 },
             ],
