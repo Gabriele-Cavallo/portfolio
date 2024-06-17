@@ -146,7 +146,7 @@ createApp({
                     learned: 'rgb(3, 255, 3)',
                     inProgress: 'red',
                     description: 'Basic-level knowledge of the instrument and independent research ability for the expansion of skills.',
-                    competents: [ 'prima','seconda','terza','quarta','quinta'],
+                    competents: [ 'SELECT','FROM','WHERE','AND / OR','ORDER BY', 'AVG()', 'SUM()', 'COUNT()'],
                 },
             ],
             myRepo: [
